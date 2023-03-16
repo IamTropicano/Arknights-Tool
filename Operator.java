@@ -12,7 +12,7 @@ public class Operator {
 
 	public Operator(String name, int rarity, String type, String subType, int elite, int lvl) throws IllegalArgumentException {
 		verifClass();
-		verifLvl();
+		verifLvL();
 		this.name = name;
 		this.rarity = rarity;
 		this.type = type;
@@ -82,107 +82,55 @@ public class Operator {
 	}
 
 	public void verifClass() throws IllegalArgumentException {
+		final Set<String> setSniper = new HashSet<>(Arrays.asList("Spreadshooter","Marksman","Heavyshooter","Besieger","Artilleryman","Flinger","Deadeye"));
+		final Set<String> setGuard = new HashSet<String>(Arrays.asList("Arts Fighter","Fighter","Lord","Centurion","Dreadnought","Swordmaster","Reaper Guard","Liberator Guard","Instructor","Musha"));
+		final Set<String> setSupporter = new HashSet<String>(Arrays.asList("Summoner","Decel Binder","Bard","Hexer","Abjurer","Artificer"));
+		final Set<String> setVanguard = new HashSet<String>(Arrays.asList("Agent","Flagbearer","Charger","Pioneer","Tactician"));
+		final Set<String> setMedic = new HashSet<String>(Arrays.asList("ST Medic","MT Medic","Therapist","Wandering Medic","Incantations"));
+		final Set<String> setDefender = new HashSet<String>(Arrays.asList("Guardian","Juggernaut","Fortress","Protector","Duelist","Arts Protector"));
+		final Set<String> setCaster = new HashSet<String>(Arrays.asList("Core Caster","Blast Caster","Mech-Accord","Chain Caster","Splash Caster","Phalanx Caster","Mystic Caster"));
+		final Set<String> setSpecialist = new HashSet<String>(Arrays.asList("Push Stroker","Dollkeeper","Hookmaster","Executor","Sacrificial Specialist","Merchant","Ambusher","Trapmaster"));		
 		if(this.type == "Sniper"){
-			if(!(setSniper.contain(this.subType)))
-				throw new IllegalArgumentException("wrong sub class name")
+			if(!(setSniper.contains(this.subType)))
+				throw new IllegalArgumentException("wrong sub class name");
 		}
 
 		if(this.type == "Guard"){
-			if(!(setGuard.contain(this.subType)))
-				throw new IllegalArgumentException("wrong sub class name")
+			if(!(setGuard.contains(this.subType)))
+				throw new IllegalArgumentException("wrong sub class name");
 		}
 
 		if(this.type == "Supporter"){
-			if(!(setSupporter.contain(this.subType)))
-				throw new IllegalArgumentException("wrong sub class name")
+			if(!(setSupporter.contains(this.subType)))
+				throw new IllegalArgumentException("wrong sub class name");
 		}
 
 		if(this.type == "Vanguard"){
-			if(!(setVanguard.contain(this.subType)))
-				throw new IllegalArgumentException("wrong sub class name")
+			if(!(setVanguard.contains(this.subType)))
+				throw new IllegalArgumentException("wrong sub class name");
 		}
 
+		
 		if(this.type == "Medic"){
-			if(!(setMedic.contain(this.subType)))
-				throw new IllegalArgumentException("wrong sub class name")
+			if(!(setMedic.contains(this.subType)))
+				throw new IllegalArgumentException("wrong sub class name");
 		}
 
 		if(this.type == "Defender"){
-			if(!(setDefender.contain(this.subType)))
-				throw new IllegalArgumentException("wrong sub class name")
+			if(!(setDefender.contains(this.subType)))
+				throw new IllegalArgumentException("wrong sub class name");
 		}
 
 		if(this.type == "Caster"){
-			if(!(setCaster.contain(this.subType)))
-				throw new IllegalArgumentException("wrong sub class name")
+			if(!(setCaster.contains(this.subType)))
+				throw new IllegalArgumentException("wrong sub class name");
 		}
 
 		if(this.type == "Specialist"){
-			if(!(setSpecialist.contain(this.subType)))
-				throw new IllegalArgumentException("wrong sub class name")
+			if(!(setSpecialist.contains(this.subType)))
+				throw new IllegalArgumentException("wrong sub class name");
 		}
 	}
 
-	Set<String> setSniper = new HashSet<String>();
-	setSniper.add("Spreadshooter");
-	setSniper.add("Marksman");
-	setSniper.add("Heavyshooter");
-	setSniper.add("Besieger");
-	setSniper.add("Artilleryman");
-	setSniper.add("Flinger");
-	setSniper.add("Deadeye");
-	Set<String> setGuard = new HashSet<String>();
-	setGuard.add("Arts Fighter");
-	setGuard.add("Fighter");
-	setGuard.add("Lord");
-	setGuard.add("Centurion");
-	setGuard.add("Dreadnought");
-	setGuard.add("Swordmaster");
-	setGuard.add("Reaper Guard");
-	setGuard.add("Liberator Guard");
-	setGuard.add("Instructor");
-	setGuard.add("Musha");
-	Set<String> setSupporter = new HashSet<String>();
-	setSupporter.add("Summoner");
-	setSupporter.add("Decel Binder");
-	setSupporter.add("Bard");
-	setSupporter.add("Hexer");
-	setSupporter.add("Abjurer");
-	setSupporter.add("Artificer");
-	Set<String> setVanguard = new HashSet<String>();
-	setVanguard.add("Agent");
-	setVanguard.add("Flagbearer");
-	setVanguard.add("Charger");
-	setVanguard.add("Pioneer");
-	setVanguard.add("Tactician");
-	Set<String> setMedic = new HashSet<String>();
-	setMedic.add("ST Medic");
-	setMedic.add("MT Medic");
-	setMedic.add("Therapist");
-	setMedic.add("Wandering Medic");
-	setMedic.add("Incantations");
-	Set<String> setDefender = new HashSet<String>();
-	setDefender.add("Guardian");
-	setDefender.add("Juggernaut");
-	setDefender.add("Fortress");
-	setDefender.add("Protector");
-	setDefender.add("Duelist");
-	setDefender.add("Arts Protector");
-	Set<String> setCaster = new HashSet<String>();
-	setCaster.add("Core Caster");
-	setCaster.add("Blast Caster");
-	setCaster.add("Mech-Accord");
-	setCaster.add("Chain Caster");
-	setCaster.add("Splash Caster");
-	setCaster.add("Phalanx Caster");
-	setCaster.add("Mystic Caster");
-	Set<String> setSpecialist = new HashSet<String>();
-	setSpecialist.add("Push Stroker");
-	setSpecialist.add("Dollkeeper");
-	setSpecialist.add("Hookmaster");
-	setSpecialist.add("Executor");
-	setSpecialist.add("Sacrificial Specialist");
-	setSpecialist.add("Merchant");
-	setSpecialist.add("Ambusher");
-	setSpecialist.add("Trapmaster");
+	
 }
