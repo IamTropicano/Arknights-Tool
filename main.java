@@ -1,4 +1,5 @@
 import java.util.regex.*;
+import java.util.ArrayList;
 import java.io.*;
 import java.util.Scanner;
 public class main {
@@ -11,15 +12,13 @@ public class main {
 		
 		
 		FileInputStream file = new FileInputStream("OPERATORS_LIST.txt");   
-	      Scanner scanner = new Scanner(file);  
-	      Operator[] squad = new Operator[10];
-	      int i = squad.length;
-	      while(scanner.hasNextLine())
-	      {
-	    	  squad[squad.length-i] = readLine(scanner.nextLine());
-	    	  i-=1;
-	      }
-	      scanner.close();   	
+	    Scanner scanner = new Scanner(file); 
+	    ArrayList<Operator> squad = new ArrayList<Operator>();
+	    while(scanner.hasNextLine())
+	    { squad.add(readLine(scanner.nextLine())); }
+	    scanner.close(); 
+	    System.out.println(squad.get(0));
+	    
 	}
 	public static Operator readLine(String line) {
 		String name="", type ="", subType = "";
