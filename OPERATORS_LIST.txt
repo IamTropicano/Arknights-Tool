@@ -1,0 +1,3 @@
+Blemishine,6,Defender,Guardian,2,90
+Saria,6,Defender,Guardian,2,89
+Dorothy,6,Specialist,Trapmaster,2,75

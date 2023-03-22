@@ -80,6 +80,33 @@ public class Operator {
 		}
 	}
 
+	public void setNiveau(int elite, int lvl) {
+		verifLvL(this.rarity, elite, lvl);
+		this.elite = elite;
+		this.lvl = lvl;
+	}
+	
+	public int getRarity() {
+		return this.rarity;
+	}
+	
+	public int getElite() {
+		return this.elite;
+	}
+	
+	public int getLvl() {
+		return this.lvl;
+	}
+	
+	public String getType() {
+		return this.type;
+	}
+	
+	public String getSubType() {
+		return this.subType;
+	}
+	
+	
 	public void verifClass(String type, String subType) throws IllegalArgumentException {
 		Map<String, Set<String>> types = initSet();
 		if(!(types.get(type).contains(subType)))
