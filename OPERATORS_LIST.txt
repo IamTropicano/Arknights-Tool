@@ -35,7 +35,7 @@ Savage,5,Guard,Centurion,0,50
 Sideroca,5,Guard,Arts Fighter,0,50
 Swire,5,Guard,Instructor,0,50
 Whislash,5,Guard,Instructor,0,50
-Arena,5,Guard,Lord,0,50
+Arene,5,Guard,Lord,0,50
 Beehunter,4,Guard,Fighter,0,45
 Conviction,4,Guard,Dreadnought,0,45
 Cutter,4,Guard,Swordmaster,0,45
