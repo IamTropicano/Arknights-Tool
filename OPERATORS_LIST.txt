@@ -1,3 +1,167 @@
-Blemishine,6,Defender,Guardian,2,90
-Saria,6,Defender,Guardian,2,89
-Dorothy,6,Specialist,Trapmaster,2,75
+Saga,6,Vanguard,Pioneer,2,40
+Myrtle,4,Vanguard,Flagbearer,2,40
+Saileach,6,Vanguard,Flagbearer,1,80
+Texax,5,Vanguard,Pioneer,1,70
+Siege,6,Vanguard,Pioneer,1,50
+Cantabile,5,Vanguard,Agent,1,30
+Wild Mane,5,Vanguard,Charger,1,30
+Fang,3,Vanguard,Pioneer,1,30
+Plume,3,Vanguard,Charger,1,30
+Vanilla,3,Vanguard,Pioneer,1,30
+Blacknight,5,Vanguard,Tactician,0,50
+Chiave,5,Vanguard,Pioneer,0,50
+Grani,5,Vanguard,Charger,0,50
+Beanstalk,4,Vanguard,Tactician,0,45
+Courier,4,Vanguard,Pioneer,0,45
+Scavenger,4,Vanguard,Pioneer,0,45
+Vigna,4,Vanguard,Charger,0,45
+Yato,2,Vanguard,Pioneer,0,30
+Irene,6,Guard,Swordmaster,2,65
+Nearl the Radiant Knight,6,Guard,Dreadnought,2,60
+Surtr,6,Guard,Arts Fighter,2,60
+Thorns,6,Guard,Lord,2,40
+Amiya,5,Guard,Art Fighter,2,40
+Specter,5,Guard,Centurion,2,40
+Blaze,6,Guard,Centurion,1,80
+La Pluma,5,Guard,Reaper,1,70
+Estelle,4,Guard,Centurion,1,30
+Ch'en,6,Guard,Swordmaster,0,50
+Akafuyu,5,Guard,Musha,0,50
+Ayerscape,5,Guard,Lord,0,50
+Flamebringer,5,Guard,Dreadnought,0,50
+Franka,5,Guard,Dreadnought,0,50
+Indra,5,Guard,Fighter,0,50
+Savage,5,Guard,Centurion,0,50
+Sideroca,5,Guard,Arts Fighter,0,50
+Swire,5,Guard,Instructor,0,50
+Whislash,5,Guard,Instructor,0,50
+Arena,5,Guard,Lord,0,50
+Beehunter,4,Guard,Fighter,0,45
+Conviction,4,Guard,Dreadnought,0,45
+Cutter,4,Guard,Swordmaster,0,45
+Dobermann,4,Guard,Instructor,0,45
+Frostleaf,4,Guard,Lord,0,45
+Jackie,4,Guard,Fighter,0,45
+Matoimaru,4,Guard,Dreadnought,0,45
+Mousse,4,Guard,Arts Fighter,0,45
+Utage,4,Guard,Musha,0,45
+Melantha,3,Guard,Dreadnought,0,40
+Midnight,3,Guard,Lord,0,40
+Popukar,3,Guard,Centurion,0,40
+Eunectes,6,Defender,Duelist,2,60
+Saria,6,Defender,Guardian,2,60
+Liskarm,5,Defender,Protector,1,70
+Cuora,4,Defender,Protector,1,35
+Beagle,3,Defender,Protector,1,30
+Blemishine,6,Defender,Guardian,0,50
+Nian,6,Defender,Protector,0,50
+Ashlock,5,Defender,Fortress,0,50
+Bison,5,Defender,Protector,0,50
+Croissant,5,Defender,Protector,0,50
+Czerny,5,Defender,Arts Protector,0,50
+Hung,5,Defender,Guardian,0,50
+Vulcan,5,Defender,Juggernaut,0,50
+Bubble,4,Defender,Protector,0,45
+Dur-nar,4,Defender,Arts Protector,0,45
+Gummy,4,Defender,Guardian,0,45
+Matterhorn,4,Defender,Protector,0,45
+Cardigan,3,Defender,Protector,0,40
+Spot,3,Defender,Guardian,0,40
+Noir Corne,2,Defender,Protector,0,30
+Ch'en the Holungday,6,Sniper,Spreadshooter,2,90
+Fiammetta,6,Sniper,Artilleryman,2,60
+Exusiai,6,Sniper,Marksman,2,40
+Schwarz,6,Sniper,Heavyshooter,1,80
+Platinum,5,Sniper,Marksman,1,50
+Jessica,4,Sniper,Marksman,1,30
+Kroos,3,Sniper,Marksman,1,30
+Andreana,5,Sniper,Deadeye,0,50
+April,5,Sniper,Marksman,0,50
+Executor,5,sniper,Spreadshooter,0,50
+GreyThroat,5,Sniper,Marksman,0,50
+Greyy the Lightningbearer,5,Sniper,Flinger,0,50
+Kroos the Keen Glint,5,Sniper,Marksman,0,50
+Meteorite,5,Sniper,Artilleryman,0,50
+Provence,5,Sniper,Heavyshooter,0,50
+Sesa,5,Sniper,Artilleryman,0,50
+Aciddrop,4,Sniper,Heavyshooter,0,45
+Ambriel,4,Sniper,Deadeye,0,45
+May,4,Sniper,Marksman,0,45
+Meteor,4,Sniper,Marksman,0,45
+Pinecone,4,Sniper,Spreadshooter,0,45
+Shirayuki,4,Sniper,Artilleryman,0,45
+Vermeil,4,Sniper,Marksman,0,45
+Adnachiel,3,Sniper,Marksman,0,40
+Catapult,3,Sniper,Artilleryman,0,40
+Rangers,2,Sniper,Marksman,0,30
+'Justice Knight',1,Sniper,Marksman,0,30
+Goldenglow,6,Caster,Mech-accord,2,70
+Mostima,6,Caster,Splash Caster,1,80
+Corroserum,5,Caster,Blast Caster,1,40
+Click,4,Caster,Mech-accord,1,40
+Beeswax,5,Caster,Phalanx Caster,1,30
+Kjera,5,Caster,Mech-accord,1,30
+Lava the Purgatory,5,Caster,Splash Caster,0,50
+Leizi,5,Caster,Chain Caster,0,50
+Minimalist,5,Caster,Mech-accord,0,50
+Nightmare,5,Caster,Core Caster,0,50
+Skyfire,5,Caster,Splash Caster,0,50
+Tomimi,5,Caster,Core Caster,0,50
+Astgenne,5,Caster,Chain Caster,0,50
+Gitano,4,Caster,Splash Caster,0,45
+Greyy,4,Caster,Splash Caster,0,45
+Haze,4,Caster,Core Caster,0,45
+Indigo,4,Caster,Mystic Caster,0,45
+Lava,3,Caster,Splash Caster,0,40
+Steward,3,Caster,Core Caster,0,40
+12F,2,Caster,Splash Caster,0,30
+Durin,2,Caster,Core Caster,0,30
+Ptilopsis,5,Medic,MT Medic,2,50
+Warfarin,5,Medic,ST Medic,2,40
+Lumen,6,Medic,Therapist,2,30
+Silence,5,Medic,MT Medic,1,70
+Shining,6,Medic,MT Medic,0,50
+Ceylon,5,Medic,Therapist,0,50
+Folinic,5,Medic,MT Medic,0,50
+Hibiscus the Purifier,5,Medic,Incantation Medic,0,50
+Mulberry,5,Medic,Wandering Medic,0,50
+Whisperain,5,Medic,Therapist,0,50
+Chestnut,4,Medic,Wandering Medic,0,45
+Gavial,4,Medic,ST Medic,0,45
+Myrrh,4,Medic,St Medic,0,45
+Perfumer,4,Medic,MT Medic,0,45
+Purestream,4,Medic,Therapist,0,45
+Sussurro,4,Medic,MT Medic,0,45
+Ansel,3,Medic,MT Medic,0,40
+Hibiscus,3,Medic,MT Medic,0,40
+Lancet-2,1,Medic,MT Medic,0,30
+Glaucus,5,Supporter,Decel Binder,1,70
+Shamare,5,Supporter,Hexer,1,30
+Mayer,5,Supporter,Summoner,0,50
+Nine-Colored Deer,5,Supporter,Abjurer,0,50
+Windflit,5,Supporter,Artificer,0,50
+Deepcolor,4,Supporter,Summoner,0,45
+Earthspirit,4,Supporter,Decel Binder,0,45
+Podenco,4,Supporter,Decel Binder,0,45
+Roberta,4,Supporter,Artificer,0,45
+Orchid,3,Supporter,Decel Binder,0,40
+Lee,6,Specialist,Merchant,2,60
+Specter the Unchained,6,Specialist,Dollkeeper,2,60
+Gravel,4,Specialist,Executor,2,40
+Dorothy,6,Specialist,Trapmaster,1,80
+Gladiia,6,Specialist,Hookmaster,1,80
+Ethan,4,Specialist,Ambusher,1,60
+Jaye,4,Specialist,Merchant,1,60
+Mizuki,6,Specialist,Ambusher,1,50
+Cliffheart,5,Specialist,Hookmaster,1,30
+Enforcer,5,Specialist,Push Stroker,0,50
+Kirara,5,Specialist,Ambusher,0,50
+Manticore,5,Specialist,Ambusher,0,50
+Robin,5,Specialist,Trapmaster,0,50
+Snowsant,5,Specialist,Hookmaster,0,50
+Waai Fu,5,Specialist,Executor,0,50
+Rope,4,Specialist,Hookmaster,0,45
+Shaw,4,Specialist,Push Stroker,0,45
+THRM-EX,1,Specialist,Executor,0,30
+
+
