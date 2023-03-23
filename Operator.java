@@ -22,7 +22,7 @@ public class Operator {
 	}
 	
 	public String toString() {
-		return "Votre operateur : " + this.name + " est un " + this.subType + "(" + this.type + "). Cet operateur est de niveau : E" + this.elite + "Lvl" + this.lvl;
+		return "Votre operateur : " + this.name + " est un " + this.subType + "(" + this.type + ") de rareté : " + this.rarity + ". Cet operateur est de niveau : E" + this.elite + "Lvl" + this.lvl;
 	}
 
 	public void verifLvL(int rarity, int lvl, int elite)throws IllegalArgumentException {
@@ -132,7 +132,7 @@ public class Operator {
 		setGuard.add("Centurion");
 		setGuard.add("Dreadnought");
 		setGuard.add("Swordmaster");
-		setGuard.add("Reaper Guard");
+		setGuard.add("Reaper");
 		setGuard.add("Liberator Guard");
 		setGuard.add("Instructor");
 		setGuard.add("Musha");
@@ -157,7 +157,7 @@ public class Operator {
 		setMedic.add("MT Medic");
 		setMedic.add("Therapist");
 		setMedic.add("Wandering Medic");
-		setMedic.add("Incantations");
+		setMedic.add("Incantation");
 		Set<String> setDefender = new HashSet<String>();
 		types.put("Defender", setDefender);
 		setDefender.add("Guardian");
@@ -170,7 +170,7 @@ public class Operator {
 		types.put("Caster", setCaster);
 		setCaster.add("Core Caster");
 		setCaster.add("Blast Caster");
-		setCaster.add("Mech-Accord");
+		setCaster.add("Mech-accord");
 		setCaster.add("Chain Caster");
 		setCaster.add("Splash Caster");
 		setCaster.add("Phalanx Caster");

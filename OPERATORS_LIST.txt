@@ -20,7 +20,7 @@ Irene,6,Guard,Swordmaster,2,65
 Nearl the Radiant Knight,6,Guard,Dreadnought,2,60
 Surtr,6,Guard,Arts Fighter,2,60
 Thorns,6,Guard,Lord,2,40
-Amiya,5,Guard,Art Fighter,2,40
+Amiya,5,Guard,Arts Fighter,2,40
 Specter,5,Guard,Centurion,2,40
 Blaze,6,Guard,Centurion,1,80
 La Pluma,5,Guard,Reaper,1,70
@@ -35,7 +35,7 @@ Savage,5,Guard,Centurion,0,50
 Sideroca,5,Guard,Arts Fighter,0,50
 Swire,5,Guard,Instructor,0,50
 Whislash,5,Guard,Instructor,0,50
-Arena,5,Guard,Lord,0,50
+Arene,5,Guard,Lord,0,50
 Beehunter,4,Guard,Fighter,0,45
 Conviction,4,Guard,Dreadnought,0,45
 Cutter,4,Guard,Swordmaster,0,45
@@ -77,7 +77,7 @@ Jessica,4,Sniper,Marksman,1,30
 Kroos,3,Sniper,Marksman,1,30
 Andreana,5,Sniper,Deadeye,0,50
 April,5,Sniper,Marksman,0,50
-Executor,5,sniper,Spreadshooter,0,50
+Executor,5,Sniper,Spreadshooter,0,50
 GreyThroat,5,Sniper,Marksman,0,50
 Greyy the Lightningbearer,5,Sniper,Flinger,0,50
 Kroos the Keen Glint,5,Sniper,Marksman,0,50
@@ -123,12 +123,12 @@ Silence,5,Medic,MT Medic,1,70
 Shining,6,Medic,MT Medic,0,50
 Ceylon,5,Medic,Therapist,0,50
 Folinic,5,Medic,MT Medic,0,50
-Hibiscus the Purifier,5,Medic,Incantation Medic,0,50
+Hibiscus the Purifier,5,Medic,Incantation,0,50
 Mulberry,5,Medic,Wandering Medic,0,50
 Whisperain,5,Medic,Therapist,0,50
 Chestnut,4,Medic,Wandering Medic,0,45
 Gavial,4,Medic,ST Medic,0,45
-Myrrh,4,Medic,St Medic,0,45
+Myrrh,4,Medic,ST Medic,0,45
 Perfumer,4,Medic,MT Medic,0,45
 Purestream,4,Medic,Therapist,0,45
 Sussurro,4,Medic,MT Medic,0,45
@@ -163,5 +163,3 @@ Waai Fu,5,Specialist,Executor,0,50
 Rope,4,Specialist,Hookmaster,0,45
 Shaw,4,Specialist,Push Stroker,0,45
 THRM-EX,1,Specialist,Executor,0,30
-
-
