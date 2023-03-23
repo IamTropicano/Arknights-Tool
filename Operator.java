@@ -22,7 +22,7 @@ public class Operator {
 	}
 	
 	public String toString() {
-		return "Votre operateur de nom : " + this.name + " est un " + this.subType + "(" + this.type + "). Cet operateur est de niveau : E" + this.elite + "Lvl" + this.lvl;
+		return "Votre operateur : " + this.name + " est un " + this.subType + "(" + this.type + "). Cet operateur est de niveau : E" + this.elite + "Lvl" + this.lvl;
 	}
 
 	public void verifLvL(int rarity, int lvl, int elite)throws IllegalArgumentException {

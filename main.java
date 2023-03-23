@@ -1,24 +1,22 @@
 import java.util.regex.*;
 import java.util.ArrayList;
+import java.util.Random;
 import java.io.*;
 import java.util.Scanner;
 public class main {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
-		
-		
-		String line = "Blemishine,6,Defender,Guardian,2,90";
-		
-		
 		FileInputStream file = new FileInputStream("OPERATORS_LIST.txt");   
 	    Scanner scanner = new Scanner(file); 
 	    ArrayList<Operator> squad = new ArrayList<Operator>();
-	    while(scanner.hasNextLine())
+	    while(scanner.hasNextLine()) 
 	    { squad.add(readLine(scanner.nextLine())); }
 	    scanner.close(); 
-	    System.out.println(squad.get(0));
-	    
+	    Random random = new Random();
+	    int nb;
+	    nb = random.nextInt(squad.size());
+	    System.out.println(squad.get(nb));
 	}
 	public static Operator readLine(String line) {
 		String name="", type ="", subType = "";
