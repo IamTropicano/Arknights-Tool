@@ -70,7 +70,7 @@ Spot,3,Defender,Guardian,0,40
 Noir Corne,2,Defender,Protector,0,30
 Ch'en the Holungday,6,Sniper,Spreadshooter,2,90
 Fiammetta,6,Sniper,Artilleryman,2,60
-Exusiai,6,Sniper,Marksman,2,40
+Exusiai,6,Sniper,Marksman,2,60
 Schwarz,6,Sniper,Heavyshooter,1,80
 Platinum,5,Sniper,Marksman,1,50
 Jessica,4,Sniper,Marksman,1,30
